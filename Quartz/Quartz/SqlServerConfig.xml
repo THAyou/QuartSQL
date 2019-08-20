@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <!--Sql Server地址-->
+    <add key="SqlServerIP" value="192.168.100.20\SQL2012" />
+    <!--Sql Server用户名-->
+    <add key="SqlServerUserName" value="sa" />
+    <!--Sql Server密码-->
+    <add key="SqlServerUserPwd" value="Rl123456" />
+    <!--Sql Server库名-->
+    <add key="SqlServerDBName" value="BT_DCManage" />
+    <!--执行时间设置(Cron表达式)-->
+    <add key="Cron" value="0/5 * * * * ? " />
+  </appSettings>
+</configuration>
